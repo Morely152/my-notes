@@ -1,0 +1,490 @@
+---
+
+---
+--- 
+> 声明：本篇笔记部分摘自[《Web前端技术 - 航空工业出版社》](https://www.wenjingketang.com/bookinfo?book_id=9310)，遵循[CC BY 4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)。
+> 存在由AI生成的小部分内容，仅供参考，请仔细甄别可能存在的错误。
+___
+# 一、HTML概述
+
+`HTML (HyperText Markup Language，超文本标记语言)`是用于创建和设计网页的标准标记语言。它通过一系列 **标签(Tags)** 定义网页的结构和内容，浏览器会解析这些标签并渲染成用户看到的页面。
+# 二、常用HTML标签
+## 1.基本结构
+
+```html
+<!DOCTYPE html>    <!-- 文档类型声明 -->
+<html>     <!-- HTML部分 -->
+	<head>    <!-- 网页头部 -->
+		<meta charset="utf-8">    <!-- 元数据，声明字符集 -->
+		<title> </title>    <!-- 网页标题 -->
+		<link rel="shortcut icon" href="img/favicon.png">    <!-- 链接网页图标 -->
+	</head>
+	<body>     <!-- 网页主体部分 -->
+		<!-- 网页可见部分 -->
+	</body>
+</html>
+```
+使用规范专用、结构清晰的标签，可以方便搜索引擎整理网页内容，有利于信息检索。
+## 2.常用标签
+### ① 文档标签
+
+- `<!DOCTYPE>`：文档声明，`<!DOCTYPE html>`表明此文档使用H5标准。
+- `<html>`：又称根标签，>表明这是一个H5文档。
+- `<head>`：标记文档头部，存储网页基本信息。
+	- `<meta>`：元信息标签，用于设置描述和关键词，以便搜索引擎检索。
+		- 字符集：`<meta charset="utf-8">` 定义网页使用utf-8字符集。
+		- 网页视口：`<meta name="viewport">` 设置视口高度、缩放比等，常用于在响应式设计中使网页适配移动端。
+	- `<title>`：标记网页标题，显示在浏览器标签上。
+	- `<link>`：链接外部资源，规定了当前文档与某个外部资源的关系。
+		- 链接图标：`<link rel="shortcut icon" href="img/favicon.png">`
+		- 链接CSS样式：`<link rel="stylesheet" type="text/css" href="index.css">`
+- `<body>`：标记文档主体，用于设置展示给用户的内容。
+### ② 结构标签
+
+- `<header>`：页眉标签，通常包含网站Logo、网页主导航和搜索框等。
+- `<nav>`：导航标签，标记页面导航的链接组，如主菜单、侧边栏导航或者页内导航等。
+- `<article>`：文章块标签，用于标记一块完整独立的内容，如文章、博客条目，用户评论。
+- `<section>`：区块标签，用于标记文档中的节，从而对内容进行分区，如章节、页眉页脚。
+- `<aside>`：附栏标签，用于标记引用内容、广告等与内容无关的部分。
+- `<footer>`：页脚标签，用于标记文档或节的页脚，如友链、版权等信息。
+- `<div>`：块级无语义容器，用于模块化布局。
+- `<span>`：行内无语义标签，常用标记于文章标题下的作者、时间、地点等附属信息。
+
+ ★ 使用示例
+``` html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单网页示例</title>
+</head>
+<body>
+    <!-- 页眉部分 -->
+    <header>
+        <h1>我的网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主体内容 -->
+    <main>
+        <!-- 文章部分 -->
+        <article>
+            <h2>欢迎来到我的博客</h2>
+            <section>
+                <h3>第一章：HTML 简介</h3>
+                <p>HTML 是用于构建网页的标准标记语言。</p>
+            </section>
+            <section>
+                <h3>第二章：CSS 简介</h3>
+                <p>CSS 用于控制网页的样式和布局。</p>
+            </section>
+            <footer>
+                <p>发布时间：<span>2023年10月10日</span> | 作者：<span>张三</span></p>
+            </footer>
+        </article>
+
+        <!-- 附栏部分 -->
+        <aside>
+            <h3>相关链接</h3>
+            <ul>
+                <li><a href="#">HTML 教程</a></li>
+                <li><a href="#">CSS 教程</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- 页脚部分 -->
+    <footer>
+        <p>&copy; 2023 我的网站. 版权所有.</p>
+        <nav>
+            <ul>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">使用条款</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+```
+### ③ 文本标签
+
+- `<h1> ~ <h6>`：1级标题 ~ 6级标题，默认使文字加粗，字号依次减小。
+- `<p>` (paragraph)：段落标签，用于标记段落文本，默认使用系统的字体字号。
+- `<strong>`：强调标签，呈现`粗体`效果，语气较重。
+	- `<b>`：只有加粗效果，无强调作用。
+- `<em>` (emphasis)：强调标签，呈现*斜体*效果，语气较轻。
+	- `<i>`：只有斜体效果，无强调作用。
+- `<sup>`：标记上标，如$x^{2}、Register^{®}$。
+- `<sub>`：标记下标，如$x_{1}、CaCO_{3}$。
+- `<ins>` (insert)：表示插入的文本，默认添加下划线样式。
+- `<del>` (delete)：表示删除的文本，默认添加删除线样式。
+- `<abbr>` (abbreviation)：标记简称或缩写词，鼠标悬停时使用气泡显示全称。
+	- 如：<abbr text="Hypertext markup language">HTML</abbr>。
+- `<br />`：实现文本换行，不建议大量使用。
+- `<hr />`：标记水平线。
+	- align属性：设置对齐方式，**center 居中** | left 左对齐 | right 右对齐
+	- size属性：设置粗细，以像素(px)为单位，**默认2px**。
+	- width属性：设置宽度，单位为px或%，**默认100%**。
+	- color属性：设置颜色，可用颜色名、#RGB十六进制、(r, g, b)设置。
+- `<dfn>`：用于标记专用术语，默认添加斜体效果。
+- `<pre>`：表示预定义格式文本，即保利原有的空格和换行。
+- `<code>`：用于标记代码或文件名，一般包裹在`<pre>`标签中以保留原有的格式。
+### ④ 特殊字符转义
+
+| 字符  |   含义   |     代码     |         解释         |
+| :-: | :----: | :--------: | :----------------: |
+|     |   空格   |  `&nbsp;`  | Non-Breaking Space |
+|  <  |  小于号   |   `&lt;`   |     less than      |
+|  >  |  大于号   |   `&gt;`   |     great than     |
+|  &  | 逻辑与符号  |  `&amp;`   |     ampersand      |
+|  ￥  | 人民币符号  |  `&yen;`   |        类似拼音        |
+|  ©  |  版权符号  |  `&copy;`  |     copyright      |
+|  ®  | 注册商标符号 |  `&reg;`   |      register      |
+|  °  |  度符号   |  `&deg;`   |       degree       |
+|  ±  |  正负号   | `&plusmn;` |     plus-minus     |
+|  ×  |   乘号   | `&times;`  |                    |
+|  ÷  |   除号   | `&divide;` |                    |
+
+### ⑤ 多媒体
+
+- ★ 路径表示法
+	 - 图片在同级目录下：`example.png`
+	 - 图片在下级目录下：`dic/example.png`
+	 - 图片在上级目录下：`../dic/example.png`
+
+- 图片标签：`<img src="路径" alt="提示文本" />`
+	- src支持链接 JPEG 、 GIF 和 `PNG` 三种格式的图片
+- 音频标签：`<audio src="路径" controls="controls">提示文本</audio>`
+	- controls属性：显示音频控件
+- 视频标签：`<video src="路径" controls="controls">提示文本</video>`
+	- controls属性：显示视频控件
+- 流标签：`<figure></figure>`
+	- 表示页面中的一块独立的内容，表现为具有左右缩进的内容快。
+	- `<figcaption>`：嵌套在<figure中标记流的标题，可以省略。
+
+★ 使用示例
+```html
+<figure>
+	<figcaption>流标题</figcaption>
+	<img src="img/p1.jpg" alt="示例图片" />
+	<p>流内容</p>
+</figure>
+```
+
+### ⑥ 列表
+
+- 无序列表：<ul></ul>
+	- 各级列表项前，默认分别显示实心圆、空心圆、实心方块图标。
+	- 也可通过`type= "disc" "circle" "square"` 强制指定序号样式。
+- 有序列表：`<ol></ol>`，具有以下属性：
+	- `reversed="reversed"`：降序排列(仅颠倒编号，各列表项内容不颠倒)。
+	- `start="1"`：指定序号的起始值。
+	- `type="1" "A" "a" "I" "i"`：指定序号的样式。
+- 自定义列表： `<dl></dl>` 
+	- 使用 `<dt></dt>` 标记列表标题
+	- 使用 `<dd></dd>` 标记列表内容
+- 列表项：`<li></li>`，与`<ol>`相似，具有以下属性：
+	- `value="1"`：指定当前项的序号，并使之后的列表项重新编号。
+	- `type="1" "A" "a" "I" "i"`：指定序号的样式。
+
+★ 使用示例
+``` html
+<ul type="disc">
+	<li>无序列表第一项</li>
+	<li>无序列表第二项</li>
+	<ol reversed="reversed">
+		<li value="1" type="A">有序列表第一项</li>
+		<li>有序列表第二项</li>
+	</ol>
+</ul>
+<dl>   <!-- 自定义列表中可以有多个标题，列表项没有项目符号，也不强调次序 -->
+	<dt> 自定义列表标题</dt>
+	<dd>自定义列表第一项</dd>
+	<dd>自定义列表第二项</dd>
+	<dt>自定义列表标题</dt>
+	<dd>自定义列表项目<dd>
+</dl>
+```
+
+### ⑦ 超链接
+
+- `<a href="目标地址"> 载体 </a>`
+	- href属性：必须设置，若暂时未确定地址，用href="#"将链接置空。
+	- target属性：**self 当前窗口打开** | blank 新窗口打开
+	- download属性：指定资源的文件名，并且强制浏览器执行下载操作(仅Chrome和FIreFox支持)。
+- 锚点链接：设置某个标签的id属性，将链接的href属性设置为`href="#id名称"`，可以创建一个锚点。用户点击链接时会自动跳转到指定id所在的标签处。
+- 电子邮件链接：`href = "mainto:电子邮件地址?subject=邮件主题"`
+- 图像热点链接：在一张图片上根据坐标分别设置不同区域的超链接。步骤如下：
+	- 在图片标签`<img />`下添加一个`<map>`标签，其name属性为图片的id，表示添加图像热点链接的作用区域
+	- 在`<map>`标签中添加几个<area>标签，使用下列属性设置热点链接：
+		- shape：circle 圆形 | rect 矩形 | poly 多边形
+		- coords：关键点的坐标，参数如下：
+			- circle形状：coords = "圆心x, 圆心y，半径"
+			- rect形状：coords = "左上顶点x, 左上顶点y, 右下顶点x, 右下顶点y"
+			- poly形状：coords = "顶点1x, 顶点1y, 顶点2x, 顶点2y, …"
+
+★ 使用示例
+```html
+<a href="img/p1.png" target="_blank" id=pic_dog>  <!-- 简单的超链接示例 -->
+	<img src="img/p1.png" alt="小狗" />
+	<p>点击预览</p>
+</a>
+
+<a href="#pic_dog">  <!-- 锚点示例：点击跳转到小狗图片 -->
+	<p>查看图片</p>
+</a>
+
+<img src="img/main.png" alt="动物大全"  usermap="#map"/>  <!-- 图像热点链接 -->
+<map name="map">  <!-- 属性值应与usermap的值相同 -->
+	<area shape="circle" coords="88, 77, 63" href="img/dogs.png" alt="小狗">
+	<area shape="rect" coords="26, 190, 151, 357" href="img/cats.png" alt="小猫">
+</map>
+```
+
+### ⑧ 表格
+
+- 基本结构
+	- `<table>`：标记表格。
+	- `<caption>`：标记表格的标题。
+	- `<tr>`：标记表格中的一行。
+	- `<th>`：包含在`<tr>`中，标记表头内容，默认加粗居中。
+	- `<td>`：包含在`<tr>`中，标记普通内容，默认不加粗左对齐。
+- 表格分组
+	- 按行分组：
+		- `<thead>`：标记表头部分(`<th>`标记的是表头的一格)。
+		- `<tbody>`：标记表体部分。
+		- `<tfoot>`：标记表尾部分。
+	- 按列分组：
+		- `<col>`：包含在`<table>`中，通过 `span属性` 设置每组的列数。
+- 常用属性
+	- 整体边框
+		- 设置`<table>`的 `border属性`，单位为px。
+	- 单元格的内外边距
+		- 内边距(内容 - 边框)：设置`<table>`的 `cellpadding属性`，单位为px。
+		- 外边距(边框 - 边框)：设置`<table>`的 `cellspacing属性`，单位为px。
+		- 图示：
+		  ![](20250514174921790.png)
+			- 这两个属性不常在HTML中使用(已过时),而是使用CSS中的`border-spacing`属性。
+	- 表格内外边距（外遵框架frame，内守规矩rulles）
+		- 表格内边框：设置`<table>`的 `rules属性`(已废弃) ，取值如下：
+			- none：不显示内边框
+			- all：显示所有边框
+			- groups：只显示分组的边框
+			- rows：显示行之间的边框
+			- cols：显示列之间的边框
+		- 表格外边框：设置`<table>`的 `frame属性`(已废弃) ，取值如下：
+			- void：不显示外边框
+			- box、boder：显示所有外边框
+			- above：显示上边框
+			- below：显示下边框
+			- lhs：显示左外边框
+			- rhs：显示有外边框
+			- hsides：(horizon sides)显示上下边框
+			- vsides：(vertical sides)显示左右边框
+	- 单元格跨行、跨列
+		- 跨行：设置`<th>`或`<td>`的rowspan属性，值为跨行数。
+		- 跨列：设置`<th>`或`<td>`的colspan属性，值为跨列数。
+
+★ 使用示例
+```html
+<table border="1" rules="all">      <!-- 以1px显示所有外边框 -->
+	<caption>表格标题</caption>
+	<col class="c1" span="1" />     <!-- 垂直分组：第一组占一列 -->                
+	<col class="c2" span="3" />     <!-- 垂直分组：第二组占三列 -->
+	<!-- 水平分组：表头部分 -->
+	<thead>
+		<tr><th>表头第一格</th><th>表头第二格</th><th>表头第三格</th><th>表头第四格</th></tr>
+	</thead>
+	<!-- 水平分组：表体部分 -->
+	<tbody>
+		<tr>
+			<!--跨行内容-->
+			<th rowspan="2">内容(1,1)<br/>(占两行)</th>
+			<td>内容(1,2)</td><td>内容(1,3)</td><td>内容(1,4)</td>
+		</tr>
+		<tr>
+			<td>内容(2,2)</td><td>内容(2,3)</td><td>内容(2,4)</td>
+		</tr>
+		<tr>
+			<th>内容(3,1)</th>
+			<td>内容(3,2)</td><td>内容(3,3)</td><td>内容(3,4)</td>
+		</tr>
+	</tbody>
+	<!-- 水平分组：表尾部分 -->
+	<tfoot>
+		<tr>
+			<th>表尾第一格</th>
+			<!--跨列内容-->
+			<th colspan="3">表尾第二格(占三列)</th></tr>
+	</tfoot>
+</table>
+```
+
+★ 表格效果：
+<table border="1" rules="all">      <!-- 以1px显示所有外边框 -->
+	<caption>表格标题</caption>
+	<col class="c1" span="1" />     <!-- 垂直分组：第一组占一列 -->                
+	<col class="c2" span="3" />     <!-- 垂直分组：第二组占三列 -->
+	<!-- 水平分组：表头部分 -->
+	<thead>
+		<tr><th>表头第一格</th><th>表头第二格</th><th>表头第三格</th><th>表头第四格</th></tr>
+	</thead>
+	<!-- 水平分组：表体部分 -->
+	<tbody>
+		<tr>
+			<!--跨行内容-->
+			<th rowspan="2">内容(1,1)<br/>(占两行)</th>
+			<td>内容(1,2)</td><td>内容(1,3)</td><td>内容(1,4)</td>
+		</tr>
+		<tr>
+			<td>内容(2,2)</td><td>内容(2,3)</td><td>内容(2,4)</td>
+		</tr>
+		<tr>
+			<th>内容(3,1)</th>
+			<td>内容(3,2)</td><td>内容(3,3)</td><td>内容(3,4)</td>
+		</tr>
+	</tbody>
+	<!-- 水平分组：表尾部分 -->
+	<tfoot>
+		<tr>
+			<th>表尾第一格</th>
+			<!--跨列内容-->
+			<th colspan="3">表尾第二格(占三列)</th></tr>
+	</tfoot>
+</table>
+
+### ⑨ 表单
+
+- 基本组成：表单域、表单控件、提交按钮、提示信息。
+  ![](20250514175031977.png)
+	- 表单域：网页中放置表单控件与提示信息的区域，用于采集用户输入信息并传输到服务器。
+		- `<form action="提交地址" method="提交方式"></form>`（form标签不可互相嵌套。）
+			- action属性：表示数据提交的地址，一般是一个URL，开发初期可使用#占位置空。
+			- method属性：提交表单数据的方式，默认为get，一般使用post。
+			- name属性：表单的名称。
+			- autocomplete属性：自动记录并弹出历史记录。取值： **on** | off
+			- novalidate属性：值为novalidate，若设置则不会对输入的内容进行检查。
+			- enctype属性：设置数据发送到服务器时的编码类型，取值：
+				- **application/x-www-form-urlencoded**：表示对所有字符编码再传输，会导致大文件传输效率降低。
+				- mutipart/formdata：表示传输的数据为二进制类型。
+				- text/plain：表示传输纯文本，不编码特殊字符，但是空格转换为加号“+”。
+			- target属性：表示表单数据提交地址的打开方式，取值：**self 当前窗口打开** | blank 新窗口打开
+	- 提交按钮：用于用户确定信息填写完毕后将其传输至服务器。
+	- 提示信息：提示用户输入信息的内容和类型。
+	- 常用表单控件：提供表单功能，如文本框、按钮、单/复选框、搜索框等。
+		- `<input type="text" />`：单行文本框，用于输入简短的文本，如账号密码。
+		- `<input type="password" />`：密码文本框，会隐藏输入的内容，显示黑色圆点。
+		- `<input type="radio" />`：单选框，用于单项选择，如性别、年级等。
+		- `<input type="checkbox" />`：复选框，用于多项选择(也可以单选)，如兴趣爱好爱好。
+		- `<input type="button" />`：普通按钮，用于标记可单机的按钮，通过value属性可设置按钮内容。
+			- 作用同`<button>`标签，后者可嵌入文本、图像等内容，同时拥有更丰富的样式。
+		- `<input type="submit" />`：提交按钮，用于提交用户输入的数据，默认内容为“提交”。
+		- `<input type="reset" />`：重置按钮，用于清空表单中的数据，默认内容为“重置”。
+		- `<input type="image" />`：图像形式的提交按钮，使用图像代替普通提交按钮样。
+		- `<input type="file" />`：文件域，包含一个“选择文件”的按钮和表示选中文件的文本，用户单机按钮可选择文件上传。
+		- `<input type="email" />`：邮箱地址文本框，支持验证邮箱格式正确性，并提示错误信息。
+		- `<input type="url" />`：地址文本框，支持验证URL格式正确性，并提示错误信息。
+		- `<input type="tel" />`：电话号码文本框，通过pattern属性设置正则表达式限制输入格式。
+		- `<input type="search" />`：搜索框，能够记录输入的字符，作为网站搜索的关键词。
+		- `<input type="number" />`：数值文本框，只能输入数字，支持设置max,min,step,value属性限制输入内容的边界、间隔和默认值。
+		- `<input type="range" />`：数值范围滑块，将数值文本框显示为滑动条控件。
+		- `<input type="date" />`：日期时间文本框，可通过设置type来控制时间的精度：date(天) | week(周) | month（月） | time(分钟)
+	- 其他表单控件：
+		- `<textarea clos="列数" rows="行数" palcehoder=“提示信息”>`：文本区域(支持输入多行文本，类似于留言板)
+		- `<select size="选项个数" mutiple="mutiple"><option>选项一</option><option>选项二</option><option>选项三</option></select>`:选择框(下拉列表)
+			- 若为select设置mutiple属性，则选项会按多行显示，且支持按Ctrl多选
+			- 若为option设置selected属性，默认选中此选项
+			- 若选项较多，可使用`<optgroup label="组名"></optgroup>`包含多个`<option>`标签，进行选项分组
+		- 数据列表：支持用户输入关键词匹配选项，同时也支持用户直接选择列表中的选项，格式如下：
+``` HTML
+<input type="类型" list="列表名称">
+<datalist id="列表名称">
+	<option label="说明内容1">选项1</option> <!-- 说明内容不会被填入输入框 --->
+	<option label="说明内容2">选项2</option>
+	...
+</datalist>
+```
+
+| **上述代码效果说明** |           **图示**           |
+| :----------: | :------------------------: |
+|   支持用户选择选项   | ![](20250514175158629.png) |
+|   支持用户输入匹配   | ![](20250514175305177.png) |
+| 说明文字不会被填入输入框 | ![](20250514175247210.png) |
+- 常用表单属性
+
+|      属性      |      属性值       |       说明        |
+| :----------: | :------------: | :-------------: |
+|     name     |      自定义       |     表单控件的名称     |
+|    value     |      自定义       |    表单控件的默认值     |
+|   readonly   |    readonly    |   表单控件不可编辑修改    |
+|   disabled   |    disabled    | 禁用该表单控件（显示为灰色）  |
+|   checked    |    checked     | 该项默认选中（单选钮或复选框） |
+| autocomplete |     on/off     |     自动完成功能      |
+|  autofocus   |   autofocus    |     自动获取焦点      |
+|     form     | `<form>`的id属性值 |    指定控件所属表单     |
+| placeholder  |      字符串       | 显示在输入型文本框中的输入提示 |
+|   required   |    required    |    该表单控件不可为空    |
+|   pattern    |   字符串(正则表达式)   |    验证输入内容的模式    |
+- 提示信息：`<label for="目标控件id">提示信息</label>`
+	- 用于单选/复选框选择钮后的文字说明，或按钮中的文字(如：○ **18岁以下**)
+	- 点击提示信息也能够激活对应的控件，有利于优化用户体验
+- 表单对象分组：`<fieldset>`
+	- 格式：
+``` HTML
+    <fieldset>
+        <legend>登录</legend>
+        <p>账号：<input type="text" /></p>
+        <p>密码：<input type="password" /></p>
+    </fieldset>
+```
+
+![](20250514175326762.png)
+
+---
+★ 常用表单标签使用示例
+``` html
+<form action="#" method="post">
+            <p>会员信息表</p>
+            <fieldset>
+                <legend>基本信息</legend>
+                <label for="name">昵称：</label>
+                <input id="name" type="text" /><br /><br />
+                <label for="idc">头像：</label>
+                <input id="idc" type="file" />
+            </fieldset>
+            <fieldset>
+                <legend>其他信息</legend>
+                <p>性别：
+                    <label for="nan">男</label>
+                    <input id="nan" type="radio" name="rad" />
+                    <label for="nv">女</label>
+                    <input id="nv" type="radio"  name="rad" />
+                </p>
+                <p>兴趣：
+                    <label for="chang">唱歌</label>
+                    <input id="chang" type="checkbox" name="chb" />
+                    <label for="tiao">跳舞</label>
+                    <input id="tiao" type="checkbox" name="chb" />
+                    <label for="dong">运动</label>
+                    <input id="dong" type="checkbox" name="chb" />
+                </p>
+                <p>
+                    <label for="gq">个性签名：</label><br />
+                    <textarea id="gq" cols="40" rows="5"></textarea>
+                </p>
+            </fieldset><br />
+            <input type="submit" />
+            <input type="reset" />
+        </form>
+```
+
+★显示效果
+![](20250514175343378.png)
+

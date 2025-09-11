@@ -1,0 +1,134 @@
+---
+
+---
+--- 
+> 课程链接：[【2025版】Vue3从入门到精通，零基础快速上手保姆级视频教程(已完结)](https://www.bilibili.com/video/BV1Etu3zKESQ)，本篇笔记遵循[CC BY 4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)。存在由AI生成的小部分内容，仅供参考，请仔细甄别可能存在的错误。
+--- 
+# 一、Vue3简介及基础
+## 1.Vue简介
+
+> **Vue**是一款用于构建用户界面的JavaScript框架。它基于标准HTML、CSS和JavaScript构建，并提供了一套声明式的、组件化的编程模型，帮助你高效地开发用户界面。无论是简单还是复杂的界面，Vue都可以胜任；即Vue是一个**渐进式**的框架，既可以应用到整个工程项目中，也可以作为一个小组件在其中一个HTML网页中引入一部分功能。
+
+**Vue的应用场景：**
+- 无需构建步骤，渐进式增强静态的HTML
+- 在任何页面中作为Web Components嵌入
+- 单页应用(SPA)
+- 全栈/服务端渲染(SSR)
+- Jamstack/静态站点生成(SSG)
+- 开发桌面端、移动端、WebGL，甚至是命令行终端中的界面
+
+**Vue3官方网站：** https://cn.vuejs.org
+
+## 2.Vue API风格
+Vue的书写风格有两种：
+- **选项式API**(更偏向Vue2)
+- **组合式API**(更偏向Vue3)
+大部分核心概念在不同的风格中是通用的。
+
+两种书写风格的适用场景： 
+- 选项式Vue：不需要构建整个Vue项目，或应用场景较为简单
+- 组合式Vue：打算用Vue构建完整的单页应用，推荐采用组合式API+单文件组件实现
+
+## 3.Vue3开发环境搭建(基于Vite构建)
+
+> Vite的优势:相较于使用webpack的vue-cli，能够支持轻量快速的热重载，同时支持`TypeScript`、`JSX`、`CSS`，能够实现按需编译(临时编译用户查看的模块)，无需编译整个应用再启动服务。
+
+### 搭建步骤：
+1. 安装node（需要使用npm）
+2. 进入项目所在文件夹，执行命令
+```shell
+npm init vue@latest
+```
+3. 填写项目名等信息即可，注意项目名不要有大写、中文、特殊字符，使用**小写字母+数字**组合即可
+4. 项目创建成功，执行给出的命令即可
+   ![](20250717122737354.png)
+  - 建议使用VS Code进行Vue项目的开发。
+# 四、项目目录构建
+### 1.Vue项目文件结构
+```
+.vscode          --- VS Code的配置文件
+node_modules     --- Vue项目运行依赖
+public           --- 资源文件夹
+src              --- 源码文件夹
+.gitignore       --- git仓库文件
+index.html       --- 入口HTML文件
+package.json     --- 信息描述
+README.md        --- 注释文件
+vite.config.js   --- Vue配置文件
+```
+## 2. src文件夹中的重要内容
+### ① main.ts
+- 在整个Vue项目的入口`index.html`中，引入了`src`文件夹中的文件`main.ts`：
+```html
+  <body>
+    <div id="app"></div>           <!-- ts中的APP应用会挂载到这里 -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+```
+- `main.ts`文件中的内容：
+```ts
+import './assets/main.css'         // 引入CSS样式
+
+import { createApp } from 'vue'    // 引入创建APP的方法
+import App from './App.vue'        // 引入APP的核心组件
+
+createApp(App).mount('#app')       // 创建APP应用，挂载到index.html中id为app的div容器内
+```
+### ② APP.vue
+```vue
+<script setup lang="ts">
+	import HelloWorld from './components/HelloWorld.vue'
+	import TheWelcome from './components/TheWelcome.vue'
+	// 这里写ts脚本、引入组件等
+</script>
+
+<template>
+	<!-- 这里写页面结构 -->
+</template>
+
+<style scoped>             /* scoped属性表示局部样式 */
+	/* 这里写样式 */
+</style>
+```
+### ③ conponents文件夹
+- 用于定义和存放一些vue组件，其中是一系列的vue文件。
+```vue
+<!-- 例：Person.vue，与人相关的组件 -->
+<template>
+	<div class="person">
+		<h2>姓名: {{ name }}</h2>
+		<h2>年龄: {{ age }}</h2>
+		<button @click="showTel">查看联系方式</button>
+	</div>
+</template>
+
+<script lang="ts">
+	export default {      // 默认暴露数据
+		name:'Person',
+		data() {
+			return {
+				name: '张三',
+				age: 18,
+				tel: '1388888888'
+			}
+		},
+		methods:{
+			showtel() {
+				
+			}
+		}
+	}
+</script>
+
+<style scoped>
+
+</style>
+```
+
+
+
+
+
+
+--- 
+# 参考资料：

@@ -2,16 +2,84 @@
 	"nodes":[
 		{"id":"64b47bfb72262b65","type":"group","x":-1000,"y":-2000,"width":1422,"height":880,"color":"4","label":"参考资料链接"},
 		{"id":"18d4fa8cdfe390e6","type":"group","x":-1540,"y":-2000,"width":440,"height":560,"color":"2","label":"技能树"},
+		{"id":"05f1194d8f01bc92","type":"file","file":"技能树.emmx","x":-1520,"y":-1860,"width":400,"height":400},
 		{
-			"id":"52fe78fe12722adf",
+			"id":"e5b8619ce4032540",
 			"type":"text",
-			"text":"- [ ] 电子元器件初识",
+			"text":"# 技能树思维导图\n",
+			"styleAttributes":{},
+			"x":-1520,
+			"y":-1980,
+			"width":400,
+			"height":60
+		},
+		{
+			"id":"e48d7788d3a2dbd3",
+			"type":"text",
+			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [ ] 5.反射\n- [ ] 6.注解\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [ ] 15.Maven基础\n- [ ] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [ ] 20.设计模式\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-1588,
+			"y":-1340,
+			"width":537,
+			"height":899,
+			"color":"3"
+		},
+		{
+			"id":"01d64ec9a1787911",
+			"type":"text",
+			"text":"- [ ] Java",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
+			"x":-980,
 			"y":-1980,
 			"width":280,
 			"height":60,
-			"color":"5"
+			"color":"2"
+		},
+		{
+			"id":"d7235faf2effe57a",
+			"type":"text",
+			"text":"- [ ] CS50计算机科学",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1840,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"d5b75efbba5b56f5",
+			"type":"text",
+			"text":"- [ ] 计算机组成原理",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1760,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"a5deb8c64b928c73",
+			"type":"text",
+			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1220,
+			"width":646,
+			"height":80,
+			"color":"#0055ff"
+		},
+		{
+			"id":"967e81d8aab4782a",
+			"type":"text",
+			"text":"- [ ] 操作系统",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1680,
+			"width":280,
+			"height":60,
+			"color":"3"
 		},
 		{
 			"id":"e9235f57d1533f89",
@@ -50,54 +118,6 @@
 			"height":60,
 			"color":"5"
 		},
-		{"id":"05f1194d8f01bc92","type":"file","file":"技能树.emmx","x":-1520,"y":-1860,"width":400,"height":400},
-		{
-			"id":"e5b8619ce4032540",
-			"type":"text",
-			"text":"# 技能树思维导图\n",
-			"styleAttributes":{},
-			"x":-1520,
-			"y":-1980,
-			"width":400,
-			"height":60
-		},
-		{
-			"id":"e48d7788d3a2dbd3",
-			"type":"text",
-			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [ ] 5.反射\n- [ ] 6.注解\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [ ] 15.Maven基础\n- [ ] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [ ] 20.设计模式\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-1588,
-			"y":-1340,
-			"width":537,
-			"height":899,
-			"color":"3"
-		},
-		{
-			"id":"01d64ec9a1787911",
-			"type":"text",
-			"text":"- [ ] Java",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1980,
-			"width":280,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"9717dd84b683f6ff",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-584,
-			"y":-1840,
-			"width":250,
-			"height":60,
-			"color":"3"
-		},
 		{
 			"id":"3ca5b92276c55b11",
 			"type":"text",
@@ -134,6 +154,76 @@
 			"color":"6"
 		},
 		{
+			"id":"d2f912f094b96d1d",
+			"type":"text",
+			"text":"- [ ] 网络工程入门",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1600,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"acdfcdcf203dd8d6",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1gk4y1w7vn/?vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1680,
+			"width":250,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"c718c51efee2d54e",
+			"type":"text",
+			"text":"- [ ] GitLab CI/CD - 1h",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1520,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"fc739729c9dc8ddc",
+			"type":"text",
+			"text":"- [ ] Java-注解与反射：https://www.bilibili.com/video/BV1DG4y1G7xy/",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1340,
+			"width":646,
+			"height":80,
+			"color":"#0055ff"
+		},
+		{
+			"id":"52fe78fe12722adf",
+			"type":"text",
+			"text":"- [ ] 电子元器件初识",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1980,
+			"width":280,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"9717dd84b683f6ff",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-584,
+			"y":-1840,
+			"width":250,
+			"height":60,
+			"color":"3"
+		},
+		{
 			"id":"8e79de52d4ce5aba",
 			"type":"text",
 			"text":"https://liaoxuefeng.com/books/java/introduction/index.html",
@@ -145,28 +235,6 @@
 			"width":250,
 			"height":60,
 			"color":"2"
-		},
-		{
-			"id":"d7235faf2effe57a",
-			"type":"text",
-			"text":"- [ ] CS50计算机科学",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1840,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"d5b75efbba5b56f5",
-			"type":"text",
-			"text":"- [ ] 计算机组成原理",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1760,
-			"width":280,
-			"height":60,
-			"color":"3"
 		},
 		{
 			"id":"94ad6cfbe688220d",
@@ -191,28 +259,6 @@
 			"height":60
 		},
 		{
-			"id":"a5deb8c64b928c73",
-			"type":"text",
-			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1220,
-			"width":646,
-			"height":80,
-			"color":"#0055ff"
-		},
-		{
-			"id":"967e81d8aab4782a",
-			"type":"text",
-			"text":"- [ ] 操作系统",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1680,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"cce4abb84a2bc206",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1Xm411f7CM?spm_id_from=333.1387.favlist.content.click",
@@ -222,17 +268,6 @@
 			"x":-584,
 			"y":-1680,
 			"width":250,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"d2f912f094b96d1d",
-			"type":"text",
-			"text":"- [ ] 网络工程入门",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1600,
-			"width":280,
 			"height":60,
 			"color":"3"
 		},
@@ -250,19 +285,6 @@
 			"color":"3"
 		},
 		{
-			"id":"acdfcdcf203dd8d6",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1gk4y1w7vn/?vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1680,
-			"width":250,
-			"height":60,
-			"color":"6"
-		},
-		{
 			"id":"724c513a22a600ae",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1Xu411r7Vz/?p=1&vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
@@ -273,17 +295,6 @@
 			"y":-1760,
 			"width":250,
 			"height":58,
-			"color":"3"
-		},
-		{
-			"id":"c718c51efee2d54e",
-			"type":"text",
-			"text":"- [ ] GitLab CI/CD - 1h",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1520,
-			"width":280,
-			"height":60,
 			"color":"3"
 		},
 		{
@@ -298,17 +309,6 @@
 			"width":250,
 			"height":58,
 			"color":"3"
-		},
-		{
-			"id":"fc739729c9dc8ddc",
-			"type":"text",
-			"text":"- [ ] Java-注解与反射：https://www.bilibili.com/video/BV1DG4y1G7xy/",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1340,
-			"width":646,
-			"height":80,
-			"color":"#0055ff"
 		}
 	],
 	"edges":[

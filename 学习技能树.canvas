@@ -16,7 +16,7 @@
 		{
 			"id":"e48d7788d3a2dbd3",
 			"type":"text",
-			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [ ] 5.反射\n- [ ] 6.注解\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [ ] 15.Maven基础\n- [ ] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [ ] 20.设计模式\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
+			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [ ] 5.反射\n- [ ] 6.注解\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [x] 15.Maven基础\n- [x] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [ ] 20.设计模式\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
 			"styleAttributes":{
 				"textAlign":null
 			},
@@ -60,15 +60,30 @@
 			"color":"3"
 		},
 		{
-			"id":"a5deb8c64b928c73",
+			"id":"9717dd84b683f6ff",
 			"type":"text",
-			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1220,
-			"width":646,
-			"height":80,
-			"color":"#0055ff"
+			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-584,
+			"y":-1840,
+			"width":250,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"8e79de52d4ce5aba",
+			"type":"text",
+			"text":"https://liaoxuefeng.com/books/java/introduction/index.html",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-584,
+			"y":-1980,
+			"width":250,
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"967e81d8aab4782a",
@@ -143,17 +158,6 @@
 			"color":"6"
 		},
 		{
-			"id":"e317d82a92a842db",
-			"type":"text",
-			"text":"- [ ] Blender建模",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1680,
-			"width":280,
-			"height":60,
-			"color":"6"
-		},
-		{
 			"id":"d2f912f094b96d1d",
 			"type":"text",
 			"text":"- [ ] 网络工程入门",
@@ -163,6 +167,63 @@
 			"width":280,
 			"height":60,
 			"color":"3"
+		},
+		{
+			"id":"c718c51efee2d54e",
+			"type":"text",
+			"text":"- [ ] GitLab CI/CD - 1h",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1520,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"52fe78fe12722adf",
+			"type":"text",
+			"text":"- [ ] 电子元器件初识",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1980,
+			"width":280,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"724c513a22a600ae",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1Xu411r7Vz/?p=1&vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-584,
+			"y":-1760,
+			"width":250,
+			"height":58,
+			"color":"3"
+		},
+		{
+			"id":"a5deb8c64b928c73",
+			"type":"text",
+			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1220,
+			"width":646,
+			"height":80,
+			"color":"#0055ff"
+		},
+		{
+			"id":"e317d82a92a842db",
+			"type":"text",
+			"text":"- [ ] Blender建模",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1680,
+			"width":280,
+			"height":60,
+			"color":"6"
 		},
 		{
 			"id":"acdfcdcf203dd8d6",
@@ -178,17 +239,6 @@
 			"color":"6"
 		},
 		{
-			"id":"c718c51efee2d54e",
-			"type":"text",
-			"text":"- [ ] GitLab CI/CD - 1h",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1520,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"fc739729c9dc8ddc",
 			"type":"text",
 			"text":"- [ ] Java-注解与反射：https://www.bilibili.com/video/BV1DG4y1G7xy/",
@@ -198,43 +248,6 @@
 			"width":646,
 			"height":80,
 			"color":"#0055ff"
-		},
-		{
-			"id":"52fe78fe12722adf",
-			"type":"text",
-			"text":"- [ ] 电子元器件初识",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1980,
-			"width":280,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"9717dd84b683f6ff",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-584,
-			"y":-1840,
-			"width":250,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"8e79de52d4ce5aba",
-			"type":"text",
-			"text":"https://liaoxuefeng.com/books/java/introduction/index.html",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-584,
-			"y":-1980,
-			"width":250,
-			"height":60,
-			"color":"2"
 		},
 		{
 			"id":"94ad6cfbe688220d",
@@ -282,19 +295,6 @@
 			"y":-1600,
 			"width":250,
 			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"724c513a22a600ae",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1Xu411r7Vz/?p=1&vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-584,
-			"y":-1760,
-			"width":250,
-			"height":58,
 			"color":"3"
 		},
 		{

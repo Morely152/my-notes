@@ -5,12 +5,12 @@ ___
 
 ## 2.版本控制系统：跟踪文件变化，分为集中式和分布式两种
 ### ①集中式(如SVN)
-![](20250514164201399.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133570.png)
 - 文件保存在中央服务器上，修改时先下载最新版本再上传
 - 优点：使用简单
 - 缺点：中央服务器或网络故障时，客户无法工作
 ### ②分布式(如Git)
-![](20250514164248582.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133571.png)
 - 版本库在每个用户上，进行本地修改，分享式再同步仓库
 - 优点：免费开源，速度快，功能强大，支持离线工作，分支管理强大(常用)
 ___
@@ -31,7 +31,7 @@ ___
 - 图形化界面：即GUI
 - IDE插件/拓展：常用
 常用命令：
-![](20250514164314698.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133572.png)
 
 ## 5.配置Git
 
@@ -71,7 +71,7 @@ ls -a
 # 四、工作区域和文件状态
 
 ## 1.工作区域
-![](20250514164552750.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133573.png)
 - 工作区(working directory)、工作目录
 	- 如文件资源管理器中的文件夹
 - 暂存区(staging area)、索引(index)
@@ -84,7 +84,7 @@ ls -a
 	- 类似于工厂生产--货车转运--仓库储存的过程
 
 ## 2.文件状态
-![](20250514164638822.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133574.png)
 - 未跟踪(untracked):未被git管理的文件
 - 未修改(unmodified):已被管理但未变化
 - 已修改(modified):已经修改但未暂存
@@ -97,21 +97,21 @@ ls -a
 	- 在“源代码管理”中打开仓库文件夹
 	- 直接在文件夹里新建文件
 - 使用Linux命令：
-	- ![](20250514164703082.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133575.png)
 - 使用cat 文件名的命令浏览文件：
-	- ![](20250514164731983.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133577.png)
 
 	## 2.git status命令：查看仓库状态
 >  git status
 - 回显：
 	- （未进行任何操作的空仓库）
-	  ![](20250514164801258.png)
+	  ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133578.png)
 	- （添加文件后的仓库）
-	  ![](20250514164820946.png)
+	  ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133579.png)
 		- 出现了未跟踪的文件file1.txt
 
 ## 3.git add命令：将文件添加到暂存区
-![](20250514164836952.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133580.png)
 - 目标文件从红色变成绿色，表明文件已处于已暂存状态
 
 | 相关命令                  | 作用描述              |
@@ -121,11 +121,11 @@ ls -a
 | git add \*.文件格式       | 添加文件夹中特定文件格式的所有文件 |
 | git add .             | 添加文件夹中所有的文件       |
 ## 4.git commit命令：将暂存区的文件提交到仓库
-![](20250514164906585.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133581.png)
 - 使用git commit -m "附加信息"的命令来将暂存区的文件提交到仓库
 
 ## 5.git log命令：查看提交记录
-![](20250514164922952.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133582.png)
 
 ---
 # 六、版本回退
@@ -145,7 +145,7 @@ ls -a
 
 ## 1.git diff命令：
 - 比较文件在工作区与暂存区之间的差异
-![](20250514164944428.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133583.png)
 （输入;q退出vim编辑器）
 - 输出空行表示无差异
 - 其他diff命令：(命令后加文件名可指定比较某文件的差异)
@@ -158,10 +158,10 @@ ___
 # 八、删除文件
 
 ## 1.直接将文件移动到回收站，然后添加到暂存区并提交
-![](20250514165003099.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133584.png)
 
 ## 2.git rm 命令：同时删除工作区和暂存区的文件
-![](20250514165022002.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133585.png)
 - 命令git rm --cached 文件名可以只删除暂存区的文件，保留工作区的文件
 ___
 # 九、gitignore文件
@@ -176,7 +176,7 @@ ___
 - 例：有两个文件log1.log和log2.log，忽略log1.log
 	- 添加文件.gitignore
 	- 在文件.gitignore中写入“log1.log”
-	- ![](20250514165039753.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133586.png)
 		- 文件log1.log虽然存在于工作区中，但被忽视了，没有添加到暂存区，也就不会被提交到仓库
 		- 如果想忽略所有的.log文件，在文件.gitignore中写入*.log即可
 - 注意：如果文件已被添加到版本库，那么忽视无效，需要先删除版本库中的文件
@@ -185,7 +185,7 @@ ___
 git初始化时不会创建.gitignore文件，需要手动在**仓库根目录**(不是.git文件夹中)中新建
 在文件.gitignore中写入文件夹名/即可
 - 例：忽略文件夹temp：
-	- ![](20250514165102144.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133587.png)
 - 忽略后要记得提交
 
 ## 4.匹配规则
@@ -201,7 +201,7 @@ git初始化时不会创建.gitignore文件，需要手动在**仓库根目录**
 		- \ \[a-z]表示任意一位小写字母
 - ** 表示任意匹配的中间目录
 - ！ 表示取反，例如：
-![](20250514165254313.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133588.png)
 
 ## 5.直接使用已有的.gitignore模版
 > [!info] 在github中获取.gitignore模版
@@ -227,7 +227,7 @@ git初始化时不会创建.gitignore文件，需要手动在**仓库根目录**
 		- 文件test.pub是公钥文件，可以上传到github
 	- 复制test.pub的内容
 	-  在github中点击 头像 -> settings -> SSH and GPG keys -> New SSH key -> 输入标题 ->粘贴test.pub的内容 -> Add SSH key,成功在github上添加公钥
-		- 如果在创建SSH时指定了新的文件名，需要创建一个config文件并将下面五行内容添加到文件中，输入命令tail -5 config，意思是访问github时指定使用SSH下的test密钥![](20250514165325370.png)
+		- 如果在创建SSH时指定了新的文件名，需要创建一个config文件并将下面五行内容添加到文件中，输入命令tail -5 config，意思是访问github时指定使用SSH下的test密钥![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133589.png)
 	- 然后使用cd命令回到本地仓库，执行命令git clone SSH地址，输入创建密钥时设置的密码
 	- 创建成功，可以使用cd 远程仓库名称的命令进入远程仓库目录
 
@@ -239,16 +239,16 @@ git初始化时不会创建.gitignore文件，需要手动在**仓库根目录**
 
 ## 3.关联本地仓库与远程仓库
 - 添加远程仓库
-	- 复制github空仓库下的该命令并粘贴到git中执行![](20250514165347449.png)
+	- 复制github空仓库下的该命令并粘贴到git中执行![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133590.png)
 	- 其中origin是默认的仓库别名
 	- 若报错error: remote origin already exists，需要执行git remote rm origin删除关联的远程仓库，再进行添加
 - 查看当前仓库对应的远程仓库别名和地址
-	- ![](20250514165404634.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133591.png)
 - 指定分支名称
-	- ![](20250514165418617.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133592.png)
 	- 若当前本地仓库分支是main,可跳过
 - 关联本地仓库与远程仓库的main分支
-	- ![](20250514165436688.png)
+	- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133593.png)
 	- -u是upstream的缩写，表示关联
 ___
 # 十一、Gitee与Gitlab
@@ -265,7 +265,7 @@ ___
 ___
 # 十二、使用IDE拓展
 
-- 在vs code的源代码管理器中，被修改并保存的文件会被记录到“更改”中，提供三个操作按钮和一个状态标识![](20250514165455896.png)
+- 在vs code的源代码管理器中，被修改并保存的文件会被记录到“更改”中，提供三个操作按钮和一个状态标识![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133594.png)
 	- 前三个按钮分别表示打开文件、取消修改、添加暂存
 	- 最后的M表示已修改(Modified)
 - 可以更方便地暂存、提交和推送
@@ -293,7 +293,7 @@ ___
 ## 3.分支合并冲突
 - 冲突的产生
 	- 两个分支的修改内容有重复，git无法确定覆盖哪一个修改
-		- ![](20250514165514752.png)
+		- ![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012101133595.png)
 - 解决办法
 	- 使用git diff命令查看发生冲突的文件及内容
 	- 手动修改两个文件

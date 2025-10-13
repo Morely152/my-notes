@@ -8,49 +8,49 @@
 # 一、数据类型
 - C++的数据包括常量与变量，都具有一些数据类型：
 ## 1. 常见数据类型
-![](20250608235449540.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259356.png)
 ## 2.常量
 - 分为数值常量和字符(串)型常量两种
 ### ① 数值常量
-![](20250609085905688.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259357.png)
 - 指数形式：$3.14 \times 10 ^ {-2}$ -> 3.14e-2
 ### ② 字符型常量
-![](20250609090023633.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259358.png)
 ### ② 字符串型常量
-![](20250609090156339.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259359.png)
 ### ③ 常考例题
-![](20250609090342900.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259360.png)
 ## 3.整型
-![](20250609090620422.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259361.png)
 - 占n个字节的有符号整数，取值范围是 $-2^{8n - 1}$ ~ $2 ^ {8n - 1} - 1$
 - 占n个字节的有符号整数，取值范围是 $0$ ~ $2 ^ {8n} - 1$
 ## 4.浮点型
-![](20250609090940153.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259362.png)
 ## 5.布尔类型
-![](20250609091027828.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259363.png)
 ## ６.变量命名规则
-![](20250609091302367.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259365.png)
 ## 7.局部变量与全局变量
-![](20250609091352232.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259366.png)
 # 二、运算符
 ## 1.算术运算符
-![](20250609091647441.png)
-![](20250609091917412.png)
-![](20250609092214525.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259367.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259368.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259369.png)
 - 例题：
-![](20250609092639222.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259370.png)
 ## 2.赋值运算符
-![](20250609093050519.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259371.png)
 ## 3.比较运算符（关系运算符）
 -  用于表达式的比较，并返回一个真值或假值
-![](20250609093114972.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259372.png)
 ## 4.逻辑运算符
-![](20250609093240265.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259373.png)
 ## 5.位运算符
 - 两个多位二进制进行逻辑运算，采取**按位逻辑运算**的方法：
-![](20250609093615367.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259374.png)
 ## 6.杂项运算符
-![](20250609093722900.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259375.png)
 - `sizeof()`多用于获取数组长度，如：
 ```C++
 int a = {1, 2, 3, 4}
@@ -63,13 +63,13 @@ cout << sizeof(a) / sizeof(a[0])
 if语句、switch语句、while语句、for语句、Switch语句等过于基础，此处略去
 # 四、数组
 ## 1.一维数组
-![](20250609105650074.png)
-![](20250609105951798.png)
-![](20250609110013625.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259376.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259377.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259378.png)
 ## 2.二维数组
-![](20250609110232024.png)
-![](20250609110735962.png)
-![](20250609110908436.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259379.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259380.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259381.png)
 ## 3.vector动态数组
 `vector`是C++标准模板库(STL)中的一个动态数组容器，它提供了以下主要功能：
 1. **动态大小**：可以自动调整大小，不像普通数组需要预先指定固定大小
@@ -147,34 +147,34 @@ for(auto rit = v.rbegin(); rit != v.rend(); ++rit) {
 ```
 # 五、函数
 ## 1.函数定义
-![](20250609111942139.png)
-![](20250609112043359.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259382.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259383.png)
 - 即使制定了函数返回值类型为void，在函数体中也可以写`return;`实现直接返回、取消执行后续逻辑的操作。
 ## 2.函数声明
-![](20250609112304336.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259384.png)
 ## 3.函数调用
-![](20250609112411381.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259385.png)
 ## 4.默认参数
-![](20250609112440742.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259386.png)
 - 默认值参数应该位于形参列表的尾部，即无默认值的参数前面不应该出现有默认值的参数
 ## 5.内联函数(内置函数)
-![](20250609112639363.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259387.png)
 - 内联函数分**显示声明**与**隐式声明**两种：
 	- 显示声明：声明在定义类的外，并加上`inline`关键字
 	- 隐式声明：声明在定义类的内部，不用加上`inline`关键字
 # 六、指针
 ## 1.指针定义
-![](20250609230814994.png)
-![](20250609233925345.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259388.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259389.png)
 ## 2.常量与指针
-![](20250610010819685.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259390.png)
 - 对于`int * p = 1`,认为`*`前面是对指针目标的描述(目标的数据类型等)，`*`后面是对指针自身的描述(指针名)，`const`在哪个部分，对应的描述对象就不可修改。
 	- const int * p:先`const`后`*`(指向常量的指针（pointer to const）)，此时可以修改指针的目标，不能修改目标的值。
 	- int * const p:先`*`后`const`(指针本身是常量（constant pointer）)，此时可以修改指针目标的值，不能修改指针的目标。
 	- const int * const p:`const`修饰`p`变量以及`*p`指针，此时不能修改指针目标的值，也不能修改指针的目标。
-![](20250610093921218.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259391.png)
 ## 3.多级指针（指向指针的指针）
-![](20250610094943781.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259392.png)
 ## 4.指针函数（返回值为指针的函数）
 定义语法：
 ```C++
@@ -184,59 +184,59 @@ int *a(int x, int y) {
 ```
 # 七、自定义数据类型
 ## 1.结构体
-![](20250610105321688.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259393.png)
 - 访问结构体的成员时可以用`.`和`->`(后者可重载)；`ptr->member` 等价于 `(*ptr).member`。
 ## 2.联合体(共用体)
-![](20250610110553670.png)
-![](20250610110656567.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259394.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259395.png)
 - 使用联合体的目的主要是为了提高内存的使用效率，但只能同时使用其中一个成员，所以要及时取用共用体中的值，防止改用其他成员时旧的数据被覆盖掉。
 ## 3.枚举
 - 本质上类似于用数值给一组东西编号，如`week[7] = {1, 2, 3, 4, 5, 6, 7}`（称为"魔法数字"）。
 - 这样写会降低代码可读性，其他用户很难看出1~7的具体意义，因此产生了枚举的数据类型：
-![](20250610111131317.png)
-![](20250610125653689.png)
-![](20250610125759803.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259396.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259398.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259399.png)
 # 八、类和对象
 ## 1.类和对象的定义
-![](20250610170304987.png)
-![](20250610170400281.png)
-![](20250610170558062.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259400.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259401.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259402.png)
 ## 2.构造函数与析构函数
 ### ① 构造函数
-![](20250610170702611.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259403.png)
 - 构造函数的常用写法：
-![](20250610170816355.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259404.png)
 ### ② 析构函数
-![](20250610171003934.png)
-![](20250610171138463.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259405.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259406.png)
 ## 3.成员函数、静态成员
 ### ① 成员函数
-![](20250610172032705.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259407.png)
 ### ② 静态成员
-![](20250610173741458.png)
-![](20250610173835103.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259408.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259409.png)
 ## 4.类的友元
-![](20250610174027397.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259410.png)
 - A是B的友元 -> A可以访问B中标记为`private`和`protected`的属性和方法。
-![](20250610174339952.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259411.png)
 # 九、继承与多态
 ## 1.继承
 - 派生类(子类)可访问基类(父类)的`public`和`protected`属性与方法，无论选择哪种方式都无法直接访问基类的`private`属性与方法。
-![](20250610175406295.png)
-![](20250610175514263.png)
-![](20250610180026727.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259412.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259413.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259414.png)
 - 构造函数与析构函数都不能被派生类所继承。 
 ## 2.多态
-![](20250610180328767.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259415.png)
 ### ① 静态多态
 #### 函数重载
-![](20250610180353733.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259416.png)
 -  C++不以返回值区分函数重载，而是根据形参列表来区分。
-![](20250610180531206.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259417.png)
 #### 运算符重载
-![](20250610180633724.png)
-![](20250610180759170.png)
-![](20250610201732468.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259418.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259419.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259420.png)
 - `<<`与`>>`的重载：
 ```CPP
 #include <iostream>
@@ -323,11 +323,11 @@ int main() {
 
 ### ② 动态多态
 #### 虚函数
-![](20250610203345173.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259421.png)
 - 静态链接在类的多态(成员函数重载)中出现的问题：
-![](20250610203701260.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259422.png)
 - 通过将同样的`shape()`方法以`virtual`关键字标识为虚函数，可以实现根据子类的不同调用不同的方法，即使方法名、返回值，甚至参数列表都是相同的。
-![](20250610204321179.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259423.png)
 - `virtual`关键字只需要写在基类的(纯)虚函数上即可，派生类中的虚函数无需再写`virtual`。
 #### 虚基类
 - 虚基类（Virtual Base Class）是C++中用于解决多重继承中的"菱形继承问题"（Diamond Problem）的一种机制。当多个派生类从同一个基类继承时，使用虚继承可以确保在最终的派生类中只有一份基类子对象。
@@ -389,9 +389,9 @@ int main() {
     - 最后是派生类自己的构造函数（D）
 - 如果不使用虚继承，D中将有两份A的成员，访问`data`时需要指定路径（`B::data`或`C::data`），否则会产生编译错误。
 # 十、输入输出流
-![](20250610205651539.png)
-![](20250610205838721.png)
-![](20250610205857736.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259424.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259425.png)
+![](https://gitee.com/morely_152/my-pcitures/raw/master/20251012102259426.png)
 # 十一、编程例题
 ## 1.虚函数
 > 完整实现Shape抽象基类，包含：

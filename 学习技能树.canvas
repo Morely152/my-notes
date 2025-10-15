@@ -14,19 +14,6 @@
 			"height":60
 		},
 		{
-			"id":"e48d7788d3a2dbd3",
-			"type":"text",
-			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [x] 5.反射 -- 需完善\n- [x] 6.注解 -- 需完善\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [x] 15.Maven基础\n- [x] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [x] 20.设计模式 -- 需完善\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-1588,
-			"y":-1340,
-			"width":537,
-			"height":899,
-			"color":"3"
-		},
-		{
 			"id":"01d64ec9a1787911",
 			"type":"text",
 			"text":"- [ ] Java",
@@ -308,6 +295,19 @@
 			"y":-1520,
 			"width":250,
 			"height":58,
+			"color":"3"
+		},
+		{
+			"id":"e48d7788d3a2dbd3",
+			"type":"text",
+			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [x] 5.反射 -- 需完善\n- [x] 6.注解 -- 需完善\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [x] 15.Maven基础\n- [x] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [x] 20.设计模式 -- 需完善\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-1588,
+			"y":-1340,
+			"width":537,
+			"height":899,
 			"color":"3"
 		}
 	],

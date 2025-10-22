@@ -5,6 +5,7 @@
 > 声明：本篇笔记摘自[《Web前端技术 - 航空工业出版社》](https://www.wenjingketang.com/bookinfo?book_id=9310)，遵循[CC BY 4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)。
 > 存在由AI生成的小部分内容，仅供参考，请仔细甄别可能存在的错误。
 > 由于技术的迭代，部分标签已被新版本的HTML弃用，本篇笔记对其中一些标注了(已废弃)字样，但可能存在误标、漏标等情况，请以最新标准为准。
+> 本系列笔记采用`mdnice`自动排版工具美化；若有格式错误、图片缺损之处，请点击文末的“阅读原文”查看备份文章内容。
 ___
 # 一、HTML概述
 
@@ -271,7 +272,7 @@ ___
 		- 内边距(内容 - 边框)：设置`<table>`的 `cellpadding属性`，单位为px。
 		- 外边距(边框 - 边框)：设置`<table>`的 `cellspacing属性`，单位为px。
 		- 图示：
-		  ![](Web常用标签及属性样式-20250316074722163.png)
+		  ![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614043.png)
 			- 这两个属性不常在HTML中使用(已过时),而是使用CSS中的`border-spacing`属性。
 	- 表格内外边距（外遵框架frame，内守规矩rulles）
 		- 表格内边框：设置`<table>`的 `rules属性`(已废弃) ，取值如下：
@@ -364,7 +365,7 @@ ___
 ### ⑨ 表单
 
 - 基本组成：表单域、表单控件、提交按钮、提示信息。
-  ![](Web常用标签及属性样式-20250317192024390.png)
+  ![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614044.png)
 	- 表单域：网页中放置表单控件与提示信息的区域，用于采集用户输入信息并传输到服务器。
 		- `<form action="提交地址" method="提交方式"></form>`（form标签不可互相嵌套。）
 			- action属性：表示数据提交的地址，一般是一个URL，开发初期可使用#占位置空。
@@ -415,9 +416,9 @@ ___
 
 | **上述代码效果说明** |                   **图示**                    |
 | :----------: | :-----------------------------------------: |
-|   支持用户选择选项   | ![](Web学习笔记(一)：HTML篇-20250417194505881.png) |
-|   支持用户输入匹配   | ![](Web学习笔记(一)：HTML篇-20250417194717055.png) |
-| 说明文字不会被填入输入框 | ![](Web学习笔记(一)：HTML篇-20250417194750834.png) |
+|   支持用户选择选项   | ![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614045.png) |
+|   支持用户输入匹配   | ![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614047.png) |
+| 说明文字不会被填入输入框 | ![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614048.png) |
 - 常用表单属性
 
 |      属性      |      属性值       |       说明        |
@@ -446,7 +447,7 @@ ___
     </fieldset>
 ```
 
-![](Web学习笔记(一)：HTML篇-20250417200335718.png)
+![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614049.png)
 
 ---
 ★ 常用表单标签使用示例
@@ -487,5 +488,5 @@ ___
 ```
 
 ★显示效果
-![](Web学习笔记(一)：HTML篇-20250417200631467.png)
+![](https://raw.githubusercontent.com/Morely152/picgo-imgs/main/20251021000614051.png)
 

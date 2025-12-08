@@ -36,39 +36,6 @@
 			"color":"3"
 		},
 		{
-			"id":"d5b75efbba5b56f5",
-			"type":"text",
-			"text":"- [ ] 计算机组成原理",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1760,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"a5deb8c64b928c73",
-			"type":"text",
-			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1220,
-			"width":646,
-			"height":80,
-			"color":"#0055ff"
-		},
-		{
-			"id":"fc739729c9dc8ddc",
-			"type":"text",
-			"text":"- [ ] Java-注解与反射：https://www.bilibili.com/video/BV1DG4y1G7xy/",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1340,
-			"width":646,
-			"height":80,
-			"color":"#0055ff"
-		},
-		{
 			"id":"9717dd84b683f6ff",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
@@ -95,12 +62,34 @@
 			"color":"2"
 		},
 		{
-			"id":"967e81d8aab4782a",
+			"id":"94ad6cfbe688220d",
 			"type":"text",
-			"text":"- [ ] 操作系统",
+			"text":"https://www.bilibili.com/video/BV1h84y1V7DG/",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1520,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"3e316df7b216fab7",
+			"type":"text",
+			"text":"- [ ] 小岛经济学",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1520,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"d5b75efbba5b56f5",
+			"type":"text",
+			"text":"- [ ] 计算机组成原理",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-980,
-			"y":-1680,
+			"y":-1760,
 			"width":280,
 			"height":60,
 			"color":"3"
@@ -141,28 +130,6 @@
 			"width":280,
 			"height":60,
 			"color":"5"
-		},
-		{
-			"id":"d2f912f094b96d1d",
-			"type":"text",
-			"text":"- [ ] 网络工程入门",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1600,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"c718c51efee2d54e",
-			"type":"text",
-			"text":"- [ ] GitLab CI/CD - 1h",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1520,
-			"width":280,
-			"height":60,
-			"color":"3"
 		},
 		{
 			"id":"52fe78fe12722adf",
@@ -237,26 +204,59 @@
 			"color":"6"
 		},
 		{
-			"id":"94ad6cfbe688220d",
+			"id":"a5deb8c64b928c73",
 			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1h84y1V7DG/",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1520,
-			"width":250,
-			"height":60
+			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1220,
+			"width":646,
+			"height":80,
+			"color":"#0055ff"
 		},
 		{
-			"id":"3e316df7b216fab7",
+			"id":"fc739729c9dc8ddc",
 			"type":"text",
-			"text":"- [ ] 小岛经济学",
+			"text":"- [ ] Java-注解与反射：https://www.bilibili.com/video/BV1DG4y1G7xy/",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
+			"x":-980,
+			"y":-1340,
+			"width":646,
+			"height":80,
+			"color":"#0055ff"
+		},
+		{
+			"id":"967e81d8aab4782a",
+			"type":"text",
+			"text":"- [ ] 操作系统",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1680,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"d2f912f094b96d1d",
+			"type":"text",
+			"text":"- [ ] 网络工程入门",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1600,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"c718c51efee2d54e",
+			"type":"text",
+			"text":"- [ ] GitLab CI/CD - 1h",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
 			"y":-1520,
 			"width":280,
-			"height":60
+			"height":60,
+			"color":"3"
 		},
 		{
 			"id":"cce4abb84a2bc206",

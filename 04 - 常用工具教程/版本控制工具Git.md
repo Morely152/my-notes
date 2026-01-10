@@ -1,10 +1,3 @@
----
-title: 版本控制工具Git
-date: 2024-09-02 13:54:34
-categories: 
-    - 学习笔记
-    - Git
-tags: Git
 
 ---
 > 本篇笔记摘自[【GeekHour】一小时Git教程_哔哩哔哩](https://www.bilibili.com/video/BV1HM411377j/?spm_id_from=333.1387.homepage.video_card.click)

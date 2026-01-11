@@ -27,6 +27,63 @@
 			"color":"2"
 		},
 		{
+			"id":"e48d7788d3a2dbd3",
+			"type":"text",
+			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [x] 5.反射 -- 需完善\n- [x] 6.注解 -- 需完善\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [x] 15.Maven基础\n- [x] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [x] 20.设计模式 -- 需完善\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-1588,
+			"y":-1340,
+			"width":537,
+			"height":899,
+			"color":"3"
+		},
+		{
+			"id":"01d64ec9a1787911",
+			"type":"text",
+			"text":"- [ ] Java",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1980,
+			"width":280,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"d7235faf2effe57a",
+			"type":"text",
+			"text":"- [ ] CS50计算机科学",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1840,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"d5b75efbba5b56f5",
+			"type":"text",
+			"text":"- [ ] 计算机组成原理",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1760,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"967e81d8aab4782a",
+			"type":"text",
+			"text":"- [ ] 操作系统",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1680,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
 			"id":"a5deb8c64b928c73",
 			"type":"text",
 			"text":"- [ ] Java-泛型：\nhttps://www.bilibili.com/video/BV15M4y1Y72k/",
@@ -73,41 +130,6 @@
 			"color":"3"
 		},
 		{
-			"id":"e48d7788d3a2dbd3",
-			"type":"text",
-			"text":"\n- [x] 1.Java概述\n- [x] 2.流程控制语句\n- [x] 3.面向对象编程\n- [x] 4.异常处理\n- [x] 5.反射 -- 需完善\n- [x] 6.注解 -- 需完善\n- [x] 7.泛型\n- [ ] 8.集合\n- [ ] 9.IO\n- [ ] 10.日期与时间\n- [ ] 11.单元测试\n- [ ] 12.正则表达式\n- [ ] 13.加密与安全\n- [x] 14.多线程\n- [x] 15.Maven基础\n- [x] 16.网络编程\n- [ ] 17.XML与JSON\n- [ ] 18.JDBC编程\n- [ ] 19.函数式编程\n- [x] 20.设计模式 -- 需完善\n- [ ] 21.Web开发\n- [ ] 22.Spring开发\n- [ ] 23.Spring Boot开发\n- [ ] 24.Spring Cloud开发",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-1588,
-			"y":-1340,
-			"width":537,
-			"height":899,
-			"color":"3"
-		},
-		{
-			"id":"01d64ec9a1787911",
-			"type":"text",
-			"text":"- [ ] Java",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1980,
-			"width":280,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"d7235faf2effe57a",
-			"type":"text",
-			"text":"- [ ] CS50计算机科学",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1840,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"9717dd84b683f6ff",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
@@ -147,41 +169,6 @@
 			"color":"3"
 		},
 		{
-			"id":"d5b75efbba5b56f5",
-			"type":"text",
-			"text":"- [ ] 计算机组成原理",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1760,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"e9235f57d1533f89",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV12Z421x72o?spm_id_from=333.1387.favlist.content.click",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1980,
-			"width":250,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"967e81d8aab4782a",
-			"type":"text",
-			"text":"- [ ] 操作系统",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1680,
-			"width":280,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"8275d473dd2fc220",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1Sfi2Y1E2N?spm_id_from=333.1387.favlist.content.click",
@@ -206,18 +193,6 @@
 			"color":"3"
 		},
 		{
-			"id":"94ad6cfbe688220d",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1h84y1V7DG/",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1520,
-			"width":250,
-			"height":60
-		},
-		{
 			"id":"0c4f710489e05f12",
 			"type":"text",
 			"text":"https://www.bilibili.com/list/watchlater/?bvid=BV1gHSyY3E6q&oid=113418023535249&watchlater_cfg=%7B%22viewed%22%3A0%2C%22key%22%3A%22%22%2C%22asc%22%3Afalse%7D&spm_id_from=333.881.0.0",
@@ -229,6 +204,31 @@
 			"width":250,
 			"height":60,
 			"color":"5"
+		},
+		{
+			"id":"e9235f57d1533f89",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV12Z421x72o?spm_id_from=333.1387.favlist.content.click",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1980,
+			"width":250,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"94ad6cfbe688220d",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1h84y1V7DG/",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1520,
+			"width":250,
+			"height":60
 		},
 		{
 			"id":"3ca5b92276c55b11",

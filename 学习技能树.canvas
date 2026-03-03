@@ -42,7 +42,7 @@
 		{
 			"id":"01d64ec9a1787911",
 			"type":"text",
-			"text":"- [ ] Java",
+			"text":"- [x] Java",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-980,
 			"y":-1980,
@@ -73,15 +73,17 @@
 			"color":"3"
 		},
 		{
-			"id":"967e81d8aab4782a",
+			"id":"3ca5b92276c55b11",
 			"type":"text",
-			"text":"- [ ] 操作系统",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1680,
-			"width":280,
+			"text":"https://www.bilibili.com/video/BV1Co4y1A7iH?spm_id_from=333.1387.favlist.content.click",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1760,
+			"width":250,
 			"height":60,
-			"color":"3"
+			"color":"6"
 		},
 		{
 			"id":"a5deb8c64b928c73",
@@ -182,15 +184,26 @@
 			"color":"3"
 		},
 		{
-			"id":"d2f912f094b96d1d",
+			"id":"52fe78fe12722adf",
 			"type":"text",
-			"text":"- [ ] 网络工程入门",
+			"text":"- [ ] 电子元器件初识",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-980,
-			"y":-1600,
+			"x":-244,
+			"y":-1980,
 			"width":280,
 			"height":60,
-			"color":"3"
+			"color":"5"
+		},
+		{
+			"id":"83c4d6ad12b73a00",
+			"type":"text",
+			"text":"- [ ] PhotoShop",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1760,
+			"width":280,
+			"height":60,
+			"color":"6"
 		},
 		{
 			"id":"0c4f710489e05f12",
@@ -219,6 +232,39 @@
 			"color":"5"
 		},
 		{
+			"id":"45a38ffdce27f706",
+			"type":"text",
+			"text":"- [ ] PCB设计",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1900,
+			"width":280,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"967e81d8aab4782a",
+			"type":"text",
+			"text":"- [ ] 操作系统",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1680,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"d2f912f094b96d1d",
+			"type":"text",
+			"text":"- [ ] 网络工程入门",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-980,
+			"y":-1600,
+			"width":280,
+			"height":60,
+			"color":"3"
+		},
+		{
 			"id":"94ad6cfbe688220d",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1h84y1V7DG/",
@@ -229,19 +275,6 @@
 			"y":-1520,
 			"width":250,
 			"height":60
-		},
-		{
-			"id":"3ca5b92276c55b11",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1Co4y1A7iH?spm_id_from=333.1387.favlist.content.click",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1760,
-			"width":250,
-			"height":60,
-			"color":"6"
 		},
 		{
 			"id":"acdfcdcf203dd8d6",
@@ -265,39 +298,6 @@
 			"y":-1520,
 			"width":280,
 			"height":60
-		},
-		{
-			"id":"45a38ffdce27f706",
-			"type":"text",
-			"text":"- [ ] PCB设计",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1900,
-			"width":280,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"52fe78fe12722adf",
-			"type":"text",
-			"text":"- [ ] 电子元器件初识",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1980,
-			"width":280,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"83c4d6ad12b73a00",
-			"type":"text",
-			"text":"- [ ] PhotoShop",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1760,
-			"width":280,
-			"height":60,
-			"color":"6"
 		},
 		{
 			"id":"e317d82a92a842db",

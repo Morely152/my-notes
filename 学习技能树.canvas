@@ -73,6 +73,19 @@
 			"color":"3"
 		},
 		{
+			"id":"9717dd84b683f6ff",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":-584,
+			"y":-1840,
+			"width":250,
+			"height":60,
+			"color":"3"
+		},
+		{
 			"id":"3ca5b92276c55b11",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1Co4y1A7iH?spm_id_from=333.1387.favlist.content.click",
@@ -132,19 +145,6 @@
 			"color":"3"
 		},
 		{
-			"id":"9717dd84b683f6ff",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1jV411Q7L5?spm_id_from=333.1387.favlist.content.click",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":-584,
-			"y":-1840,
-			"width":250,
-			"height":60,
-			"color":"3"
-		},
-		{
 			"id":"724c513a22a600ae",
 			"type":"text",
 			"text":"https://www.bilibili.com/video/BV1Xu411r7Vz/?p=1&vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
@@ -184,17 +184,6 @@
 			"color":"3"
 		},
 		{
-			"id":"52fe78fe12722adf",
-			"type":"text",
-			"text":"- [ ] 电子元器件初识",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-244,
-			"y":-1980,
-			"width":280,
-			"height":60,
-			"color":"5"
-		},
-		{
 			"id":"83c4d6ad12b73a00",
 			"type":"text",
 			"text":"- [ ] PhotoShop",
@@ -204,6 +193,30 @@
 			"width":280,
 			"height":60,
 			"color":"6"
+		},
+		{
+			"id":"acdfcdcf203dd8d6",
+			"type":"text",
+			"text":"https://www.bilibili.com/video/BV1gk4y1w7vn/?vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":152,
+			"y":-1680,
+			"width":250,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"52fe78fe12722adf",
+			"type":"text",
+			"text":"- [ ] 电子元器件初识",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-244,
+			"y":-1980,
+			"width":280,
+			"height":60,
+			"color":"5"
 		},
 		{
 			"id":"0c4f710489e05f12",
@@ -275,19 +288,6 @@
 			"y":-1520,
 			"width":250,
 			"height":60
-		},
-		{
-			"id":"acdfcdcf203dd8d6",
-			"type":"text",
-			"text":"https://www.bilibili.com/video/BV1gk4y1w7vn/?vd_source=a1d64ca1ba2129f594954cdd4e9c4db4",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":152,
-			"y":-1680,
-			"width":250,
-			"height":60,
-			"color":"6"
 		},
 		{
 			"id":"3e316df7b216fab7",

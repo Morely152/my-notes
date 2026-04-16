@@ -60,3 +60,33 @@ RIGHT JOIN rt ON "连接条件"
 WHERE "查询条件";
 ```
 
+## 4.聚集函数GROUP、计数函数COUNT()
+
+![](20260414233821743.png)
+
+```sql
+-- 查询每个系有多少个同学
+select Sdept AS '系别', COUNT(Sno) AS '学生人数' from student GROUP BY Sdept;
+
+系别	学生人数	
+-------	-----------
+电子工程  3
+计算机	  5
+外国语	  3
+```
+
+## 5.平均值函数AVG()与条件比较
+
+![](20260414234554281.png)
+
+```sql
+-- 查询选课门数在两门以上的同学的选课门数及其平均成绩
+SELECT Sno AS '学号', COUNT(Cno) AS '选课门数', AVG(Grade) AS ' '
+FROM sc
+GROUP BY Sno
+HAVING COUNT(Cno) > 2;
+```
+
+需要注意的是，`WHERE` 是对**原始表**中的每一行进行过滤。它在 `GROUP BY` 之前执行。HAVING 是对**分组后的结果**进行过滤。它在 `GROUP BY`、`COUNT()`、`AVG()` **之后执行**。
+
+## 6. 

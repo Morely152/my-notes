@@ -88,5 +88,3 @@ HAVING COUNT(Cno) > 2;
 ```
 
 需要注意的是，`WHERE` 是对**原始表**中的每一行进行过滤。它在 `GROUP BY` 之前执行。HAVING 是对**分组后的结果**进行过滤。它在 `GROUP BY`、`COUNT()`、`AVG()` **之后执行**。
-
-## 6. 
